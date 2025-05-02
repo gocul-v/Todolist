@@ -1,0 +1,27 @@
+.todoitems{
+    align-items: center; 
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 5px ;
+} 
+.todolist-container{
+    display:flex;
+    padding-left: 20px;
+}
+.todoitems-text{
+    padding: 10px 15px;
+    font-size: 22px;
+    color: #404040;
+
+}
+.todolist-cross{
+    cursor: pointer;
+    padding-right: 45px;
+
+}
+.line-through{
+    text-decoration: line-through solid #ADADAD 3px;
+}
+.todoitems-text{
+    cursor: pointer;
+}
